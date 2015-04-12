@@ -1,0 +1,3 @@
+function lantern (id) {
+		$('#'+id)
+}

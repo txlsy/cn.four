@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.lantern {
+  width: 800px;
+  height: 600px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lantern li {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 600px;
+  float: left;
+  position: absolute;
+}
+
+.below {
+  z-index: -1;
+}
+
+.top {
+  z-index: 1;
+}

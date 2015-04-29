@@ -1,0 +1,70 @@
+.lantern {
+  width: 800px;
+  height: 600px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lantern li {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 600px;
+  float: left;
+  position: absolute;
+}
+
+.below {
+  z-index: -1;
+}
+
+.top {
+  z-index: 1;
+}
+
+.left-arrow , .right-arrow {
+  z-index: 2;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 260px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+}
+
+.left-arrow {
+  left: 2px;
+}
+
+.right-arrow {
+  right: 2px;
+}
+
+.left-arrow:hover , .right-arrow:hover {
+  filter:alpha(opacity=20);
+  -moz-opacity:0.2;
+  -khtml-opacity: 0.2;
+  opacity: 0.2;
+  background-color: grey;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 5px grey;
+
+}
+
+.spot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.spot:hover {
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 3px grey;
+  box-shadow: 1px 1px 3px grey;
+}
